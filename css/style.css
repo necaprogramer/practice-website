@@ -31,6 +31,34 @@ body{
     text-decoration: none;
 }
 
-.header > .front-page-content > .left-content > img{
+.header > .front-page-content{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.header > .front-page-content > .left-content{
+    max-width: 500px;
+}
+
+.header > .front-page-content > .left-content > h2{
+    font-size: 30px;
+    color: white;
+}
+
+.header > .front-page-content > .left-content > p{
+    font-size: 19px;
+    color: darkturquoise;
+}
+
+.header > .front-page-content > .left-content > button{
+    max-height: 40px;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.header > .front-page-content > .right-content > img{
     max-width: 500px;
 }
