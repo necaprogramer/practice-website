@@ -15,8 +15,10 @@ body{
 }
 
 .header > .nav-logo-container > .logo{
-    color: lightskyblue;
+    color: skyblue;
     font-weight: 800;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header > .nav-logo-container > .nav > ul{
@@ -29,12 +31,14 @@ body{
     color: white;
     font-size: 18px;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header > .front-page-content{
     display: flex;
     justify-content: center;
     padding: 50px;
+    gap: 20px;
 }
 
 .header > .front-page-content > .left-content{
@@ -44,11 +48,14 @@ body{
 .header > .front-page-content > .left-content > h2{
     font-size: 30px;
     color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header > .front-page-content > .left-content > p{
     font-size: 19px;
     color: antiquewhite;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header > .front-page-content > .left-content > button{
@@ -74,6 +81,8 @@ body{
 
 .main-information > h2{
     text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-information > .card.layout{
@@ -86,16 +95,21 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 400px;
-    background-color: white;
+    background-color: skyblue;
     padding: 20px;
     border-radius: 15px;
     gap: 10px;
+    color: white;
 }
 
 .main-information > .card.layout > .card > .card-img{
     display: flex;
     flex: auto;
     justify-content: center;
+}
+
+.main-information > .card.layout > .card > p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-information > .card.card.layout > .card > .card-img > img{
@@ -112,19 +126,21 @@ body{
 .quote > .quote-content{
     display: flex;
     flex-wrap: wrap;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .quote > .quote-content > p{
     font-size: 28px;
     font-style: italic;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .quote > .quote-content > h3{
     margin: 0;
     margin-left: auto;
     font-size: 23px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .call-to-action-layout{
@@ -150,12 +166,14 @@ body{
 .call-to-action-layout > .call-to-action > .call-to-action.content > h2{
     margin: 0;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .call-to-action-layout > .call-to-action > .call-to-action.content > p{
     max-width: 500px;
     margin: 0;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .call-to-action-layout > .call-to-action > button{
@@ -166,6 +184,7 @@ body{
     border: 2px solid white;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 footer{
@@ -174,10 +193,12 @@ footer{
     margin-top: auto;
     align-items: center;
     background-color: dimgray;
+    padding: 10px;
 }
 
 footer > h4{
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer > h4 > a{
