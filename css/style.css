@@ -68,6 +68,36 @@ body{
     opacity: 80%;
 }
 
+.main-information{
+    background-color: lightblue;
+}
+
+.main-information > h2{
+    text-align: center;
+}
+
+.main-information > .card.layout{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.main-information > .card.layout > .card{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
 .main-information > .card.layout > .card > .card-img{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+
+.main-information > .card.card.layout > .card > .card-img > img{
     max-width: 100px;
 }
