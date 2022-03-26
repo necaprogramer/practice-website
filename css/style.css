@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: lightslategray;
+}
+
+.header > .nav-logo-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header > .nav-logo-container > .logo{
+
+}
+
+.header > .nav-logo-container > .nav > ul{
+    display: flex;
+    list-style: none;
+}
