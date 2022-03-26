@@ -126,3 +126,44 @@ body{
     margin-left: auto;
     font-size: 23px;
 }
+
+.call-to-action-layout{
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action-layout > .call-to-action{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 30px;
+    background-color: skyblue;
+}
+
+.call-to-action-layout > .call-to-action > .call-to-action.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.call-to-action-layout > .call-to-action > .call-to-action.content > h2{
+    margin: 0;
+    color: white;
+}
+
+.call-to-action-layout > .call-to-action > .call-to-action.content > p{
+    max-width: 500px;
+    margin: 0;
+    color: white;
+}
+
+.call-to-action-layout > .call-to-action > button{
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: skyblue;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+}
