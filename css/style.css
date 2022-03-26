@@ -69,7 +69,7 @@ body{
 }
 
 .main-information{
-    background-color: lightblue;
+    
 }
 
 .main-information > h2{
@@ -166,4 +166,21 @@ body{
     border: 2px solid white;
     color: white;
     padding: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    align-items: center;
+    background-color: dimgray;
+}
+
+footer > h4{
+    color: white;
+}
+
+footer > h4 > a{
+    text-decoration: none;
+    color: skyblue;
 }
