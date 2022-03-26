@@ -101,3 +101,28 @@ body{
 .main-information > .card.card.layout > .card > .card-img > img{
     max-width: 100px;
 }
+
+.quote{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.quote > .quote-content{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.quote > .quote-content > p{
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;
+}
+
+.quote > .quote-content > h3{
+    margin: 0;
+    margin-left: auto;
+    font-size: 23px;
+}
