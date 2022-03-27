@@ -50,12 +50,14 @@ body{
     color: white;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 .header > .front-page-content > .left-content > p{
     font-size: 19px;
     color: antiquewhite;
     font-family: 'Open Sans', sans-serif;
+    margin-top: 0;
 }
 
 .header > .front-page-content > .left-content > button{
