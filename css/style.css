@@ -46,7 +46,6 @@ body{
 }
 
 .header > .front-page-content > .left-content > h2{
-    font-size: 30px;
     color: white;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
@@ -54,10 +53,10 @@ body{
 }
 
 .header > .front-page-content > .left-content > p{
+    margin-top: 0;
     font-size: 19px;
     color: antiquewhite;
     font-family: 'Open Sans', sans-serif;
-    margin-top: 0;
 }
 
 .header > .front-page-content > .left-content > button{
